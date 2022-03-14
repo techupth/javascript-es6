@@ -1,11 +1,14 @@
-function sum(...rest) {
-  return rest.reduce((accumulator, currentValue) => {
-    return accumulator + currentValue;
-  }, 0);
-}
+let studentProfile = {
+  name: "John",
+  age: 20,
+  scores: {
+    thai: 40,
+  },
+  hobbies: ["Football", "Coding"],
+};
 
-let result1 = sum(1, 2, 3, 4, 5, 6, 7, 8);
-let result2 = sum(1, 2, 3, 4);
+let additionalHobbies = ["Painting", "Yoga"];
 
-console.log(`Result ${result1}`);
-console.log(`Result ${result2}`);
+let newStudentProfile = {};
+
+console.log(newStudentProfile);
